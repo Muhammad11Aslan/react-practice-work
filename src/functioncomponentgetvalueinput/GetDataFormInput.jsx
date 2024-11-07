@@ -9,7 +9,6 @@ function GetDataFormInput() {
 	return (
 		<div>
 			<h1 style={{ backgroundColor: 'green' }}>Well To Get data Input Function components</h1>
-			{/* <h1>Data : {Input}</h1> */}
 			{upData ? (<h1> {Input}</h1>) : null}
 			<input type="text" onChange={GetData} />
 			<br />
